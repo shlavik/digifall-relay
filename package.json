@@ -1,0 +1,22 @@
+{
+  "name": "digifall-relay",
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "14.1.0",
+    "@chainsafe/libp2p-yamux": "7.0.1",
+    "@libp2p/circuit-relay-v2": "3.2.6",
+    "@libp2p/config": "1.1.3",
+    "@libp2p/identify": "3.0.25",
+    "@libp2p/keychain": "5.1.3",
+    "@libp2p/plaintext": "2.0.19",
+    "@libp2p/pubsub-peer-discovery": "11.0.1",
+    "@libp2p/websockets": "9.2.6",
+    "datastore-fs": "10.0.2",
+    "libp2p": "2.8.0",
+    "uint8arrays": "5.1.0"
+  }
+}
